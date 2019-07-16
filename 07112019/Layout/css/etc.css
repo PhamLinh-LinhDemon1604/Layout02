@@ -1,0 +1,124 @@
+.filter-panel .filter-content .list-sub-category a:hover, .filter-panel .filter-content .list-sub-category a.active{
+    color: #xf;
+    background: #e9f6ff;
+    color: #0099ff;
+}
+
+.filter-panel .filter-content .list-sub-category a{
+    line-height: 20px;
+    padding: 5px 5px;
+    font-size: 13px;
+}
+.filter-panel .filter-content .col-list-content .tab-pane .list-sub-category a{
+	margin: 5px 1.5% 5px;
+}
+.sidebar-page aside .menu-list li a.active {
+    color: #0099ff;
+}
+.info-panel .align-items-center a{ color: #333333 }
+
+.login-container {
+    width: 488px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-top: 44px;
+    padding-bottom: 68px;
+  }
+  .login-container form {
+    margin-top: 10px;
+    padding: 20px 23px;
+    border: 1px solid #BDBDBD;
+    border-radius: 2px;
+  }
+  .login-container h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    vertical-align: bottom;
+  }
+  .login-container h2 img {
+    width: 150px;
+    margin-right: 17px;
+    position: relative;
+    top: 6px;
+    vertical-align: bottom;
+  }
+  .login-container .form-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px 0 8px;
+    border-bottom: 1px solid #DBDBDB;
+    margin: 0 0 20px 0;
+  }
+  .login-container form input[type="text"], .login-container form input[type="email"], .login-container form input[type="password"]{
+    border-radius: 2px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #BDBDBD;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #636363;
+    font-family: "NanumGothic", "HelveticaNeue", sans-serif;
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .alert{display: none}
+  .alert.show {
+    display: block;
+    color: #FF8C8C;
+    font-size: 14px;
+    margin-bottom: 7px;
+  }
+  .login-container form input[type="text"].alert, .login-container form input[type="email"].alert, .login-container form input[type="password"].alert {
+    border: 1px solid #FF8C8C;
+  }
+  .login-container form .forgot-pw {
+    float: right;
+    display: inline-block;
+    clear: none;
+    margin: 10px 0 0 6px;
+    line-height: 18px;
+     color: #2D9CDB;
+     font-size: 12px;
+  }
+  .login-container a:focus,.login-container a:hover {
+    text-decoration: none;
+    color: #2D9CDB;
+  }
+
+  .login-container .btn-submit {
+    background-color: #41BAFF;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 16px;
+    display: block;
+    width: 100%;
+    color: #fff;
+  }
+  #processMessage{
+    top: 40%;
+    left: 43%;
+    padding: 10px;
+    width: 14%;
+    z-index: 1001;
+    opacity: 0.8;
+    background-color: #fff;
+    border: solid 1px #000;
+    text-align: center;
+    position: fixed;
+  }
+  .job-detail .bookmark-job.is-active {
+    background: url(/images/star-icon.png) #f6f7f8 19px 50% no-repeat !important;
+    cursor: pointer;
+}
