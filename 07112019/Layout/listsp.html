@@ -61,16 +61,12 @@
 
                     <div class="col-form form-1 col-sm-2" style="padding-right: 15px;">
                         <label class="text" for="exampleFormControlSelect1">コーディネーターの年齢</label>
-                        <div class="dropdown">
-                            <button class="btn btn-primary" type="button" data-toggle="dropdown"
-                                style="background: #fff; color:#000;">20代
-                                <span class="caret"></span></button>
-                            <!-- <ul class="dropdown-menu">
-                                  <li><a href="#">HTML</a></li>
-                                  <li><a href="#">CSS</a></li>
-                                  <li><a href="#">JavaScript</a></li>
-                                </ul> -->
-                        </div>
+                        <select class="select-form-control">
+                            <option value="0">20代</option>
+                            <option value="1">30代</option>
+                            <option value="2">40代</option>
+                            <option value="3">50代</option>
+                        </select>
                     </div>
                     <div class="col-form form-2 col-sm-2" style="padding-right: 15px; padding-left: 15px;">
                         <label class="text" for="exampleFormControlSelect1">コーデネーターの性別</label>
@@ -91,33 +87,33 @@
                         <div class="dropdown">
                             <p class="btn btn-primary " data-toggle="dropdown">都道府県</p>
                             <ul class="dropdown-menu" style="height: 180px;">
-                                <li><a href="#"> <label class="container" style="width: 100%">
-                                            <p>あり</p>
+                                <li><a href=""> <label class="container" style="width: 100%">
+                                            <p>北海道</p>
                                             <input type="checkbox" checked="checked">
                                             <span class="checkmark"></span>
                                         </label></a></li>
-                                <li><a href="#"><label class="container" style="width: 100%">
-                                            <p>あり</p>
+                                <li><a href=""><label class="container" style="width: 100%">
+                                            <p>北海道</p>
                                             <input type="checkbox">
                                             <span class="checkmark"></span>
                                         </label></a></li>
-                                <li><a href="#"><label class="container" style="width: 100%">
-                                            <p>あり</p>
+                                <li><a href=""><label class="container" style="width: 100%">
+                                            <p>北海道</p>
                                             <input type="checkbox">
                                             <span class="checkmark"></span>
                                         </label></a></li>
-                                <li><a href="#"> <label class="container" style="width: 100%">
-                                            <p>あり</p>
+                                <li><a href=""> <label class="container" style="width: 100%">
+                                            <p>北海道</p>
                                             <input type="checkbox">
                                             <span class="checkmark"></span>
                                         </label></a></li>
-                                <li><a href="#"><label class="container" style="width: 100%">
-                                            <p>あり</p>
+                                <li><a href=""><label class="container" style="width: 100%">
+                                            <p>北海道</p>
                                             <input type="checkbox">
                                             <span class="checkmark"></span>
                                         </label></a></li>
-                                <li><a href="#"><label class="container" style="width: 100%">
-                                            <p>あり</p>
+                                <li><a href=""><label class="container" style="width: 100%">
+                                            <p>北海道</p>
                                             <input type="checkbox">
                                             <span class="checkmark"></span>
                                         </label></a></li>
@@ -126,7 +122,7 @@
                     </div>
                     <div class="col-form form-4 col-sm-1" style="padding-right: 15px; padding-left: 15px;">
                         <label class="text" for="exampleFormControlSelect1">写真</label>
-                        <label class="container" style="width: 100%">
+                        <label class="container" style="padding-right: 0;">
                             <p>あり</p>
                             <input type="checkbox" checked="checked">
                             <span class="checkmark"></span>
@@ -171,7 +167,7 @@
             </div>
 
             <section class="section-product">
-                <div class="grid-panel-wrapper row-product ">
+                <div class="grid-panel-wrapper row-product " id="gird-panel-1">
                     <div class="col">
                         <div class="grid-panel">
                             <a href="#">
@@ -179,9 +175,9 @@
                                     <img src="image/preview-img.png" alt="">
                                     <span class="count">151</span>
 
-                                    <a href="#" class="myPopover location location-grid"
+                                    <a href="" class="myPopover location location-grid"
                                         style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
                                         data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
                                             style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
 
@@ -226,9 +222,9 @@
                                     <img src="image/preview-img.png" alt="">
                                     <span class="count">151</span>
 
-                                    <a href="#" class="myPopover location location-grid"
+                                    <a href="" class="myPopover location location-grid"
                                         style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
                                         data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
                                             style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
 
@@ -268,14 +264,14 @@
                     </div>
                     <div class="col">
                         <div class="grid-panel">
-                            <a href="#">
+                            <a href="">
                                 <div class="view-image">
                                     <img src="image/preview-img.png" alt="">
                                     <span class="count">151</span>
 
-                                    <a href="#" class="myPopover location location-grid"
+                                    <a href="" class="myPopover location location-grid"
                                         style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
                                         data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
                                             style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
 
@@ -315,204 +311,14 @@
                     </div>
                     <div class="col">
                         <div class="grid-panel">
-                            <a href="#">
+                            <a href="">
                                 <div class="view-image">
                                     <img src="image/preview-img.png" alt="">
                                     <span class="count">151</span>
 
-                                    <a href="#" class="myPopover location location-grid"
+                                    <a href="" class="myPopover location location-grid"
                                         style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
-                                        data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
-                                            style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
-
-                                    <!-- Content for Popover: -->
-                                    <div id="myPopoverContent" style="display:none;">
-                                        <ul>
-                                            <li>大阪</li>
-                                            <li>大阪</li>
-                                            <li>大阪</li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <div class="general-info">
-                                    <span>名前：あいうえおかきくけこ</span>
-                                    <span>年齢：20歳</span>
-                                </div>
-                                <div class="description">
-                                    <p>
-                                        <span class="title">得意ジャンル</span>
-                                        <span class="data">カジュアル</span>
-                                    </p>
-                                    <p>
-                                        <span class="title">対応年齢層</span>
-                                        <span class="data">10〜20代</span>
-                                    </p>
-                                    <p>
-                                        <span class="title">対応性別</span>
-                                        <span class="data">男女</span>
-                                    </p>
-                                </div>
-                                <div class="price">
-                                    <span><i class="currency">¥</i>2,000円/1H</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-panel-wrapper row-product ">
-                    <div class="col">
-                        <div class="grid-panel">
-                            <a href="#">
-                                <div class="view-image">
-                                    <img src="image/preview-img.png" alt="">
-                                    <span class="count">151</span>
-
-                                    <a href="#" class="myPopover location location-grid"
-                                        style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
-                                        data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
-                                            style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
-
-                                    <!-- Content for Popover: -->
-                                    <div id="myPopoverContent" style="display:none;">
-                                        <ul>
-                                            <li>大阪</li>
-                                            <li>大阪</li>
-                                            <li>大阪</li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <div class="general-info">
-                                    <span>名前：あいうえおかきくけこ</span>
-                                    <span>年齢：20歳</span>
-                                </div>
-                                <div class="description">
-                                    <p>
-                                        <span class="title">得意ジャンル</span>
-                                        <span class="data">カジュアル</span>
-                                    </p>
-                                    <p>
-                                        <span class="title">対応年齢層</span>
-                                        <span class="data">10〜20代</span>
-                                    </p>
-                                    <p>
-                                        <span class="title">対応性別</span>
-                                        <span class="data">男女</span>
-                                    </p>
-                                </div>
-                                <div class="price">
-                                    <span><i class="currency">¥</i>2,000円/1H</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="grid-panel">
-                            <a href="#">
-                                <div class="view-image">
-                                    <img src="image/preview-img.png" alt="">
-                                    <span class="count">151</span>
-
-                                    <a href="#" class="myPopover location location-grid"
-                                        style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
-                                        data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
-                                            style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
-
-                                    <!-- Content for Popover: -->
-                                    <div id="myPopoverContent" style="display:none;">
-                                        <ul>
-                                            <li>大阪</li>
-                                            <li>大阪</li>
-                                            <li>大阪</li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <div class="general-info">
-                                    <span>名前：あいうえおかきくけこ</span>
-                                    <span>年齢：20歳</span>
-                                </div>
-                                <div class="description">
-                                    <p>
-                                        <span class="title">得意ジャンル</span>
-                                        <span class="data">カジュアル</span>
-                                    </p>
-                                    <p>
-                                        <span class="title">対応年齢層</span>
-                                        <span class="data">10〜20代</span>
-                                    </p>
-                                    <p>
-                                        <span class="title">対応性別</span>
-                                        <span class="data">男女</span>
-                                    </p>
-                                </div>
-                                <div class="price">
-                                    <span><i class="currency">¥</i>2,000円/1H</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="grid-panel">
-                            <a href="#">
-                                <div class="view-image">
-                                    <img src="image/preview-img.png" alt="">
-                                    <span class="count">151</span>
-
-                                    <a href="#" class="myPopover location location-grid"
-                                        style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
-                                        data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
-                                            style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
-
-                                    <!-- Content for Popover: -->
-                                    <div id="myPopoverContent" style="display:none;">
-                                        <ul>
-                                            <li>大阪</li>
-                                            <li>大阪</li>
-                                            <li>大阪</li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <div class="general-info">
-                                    <span>名前：あいうえおかきくけこ</span>
-                                    <span>年齢：20歳</span>
-                                </div>
-                                <div class="description">
-                                    <p>
-                                        <span class="title">得意ジャンル</span>
-                                        <span class="data">カジュアル</span>
-                                    </p>
-                                    <p>
-                                        <span class="title">対応年齢層</span>
-                                        <span class="data">10〜20代</span>
-                                    </p>
-                                    <p>
-                                        <span class="title">対応性別</span>
-                                        <span class="data">男女</span>
-                                    </p>
-                                </div>
-                                <div class="price">
-                                    <span><i class="currency">¥</i>2,000円/1H</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="grid-panel">
-                            <a href="#">
-                                <div class="view-image">
-                                    <img src="image/preview-img.png" alt="">
-                                    <span class="count">151</span>
-
-                                    <a href="#" class="myPopover location location-grid"
-                                        style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
                                         data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
                                             style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
 
@@ -551,7 +357,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid-panel-wrapper row-product ">
+                <div class="grid-panel-wrapper row-product " id="gird-panel-2">
                     <div class="col">
                         <div class="grid-panel">
                             <a href="#">
@@ -559,9 +365,9 @@
                                     <img src="image/preview-img.png" alt="">
                                     <span class="count">151</span>
 
-                                    <a href="#" class="myPopover location location-grid"
+                                    <a href="" class="myPopover location location-grid"
                                         style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
                                         data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
                                             style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
 
@@ -606,9 +412,9 @@
                                     <img src="image/preview-img.png" alt="">
                                     <span class="count">151</span>
 
-                                    <a href="#" class="myPopover location location-grid"
+                                    <a href="" class="myPopover location location-grid"
                                         style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
                                         data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
                                             style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
 
@@ -653,9 +459,9 @@
                                     <img src="image/preview-img.png" alt="">
                                     <span class="count">151</span>
 
-                                    <a href="#" class="myPopover location location-grid"
+                                    <a href="" class="myPopover location location-grid"
                                         style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
                                         data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
                                             style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
 
@@ -700,9 +506,199 @@
                                     <img src="image/preview-img.png" alt="">
                                     <span class="count">151</span>
 
-                                    <a href="#" class="myPopover location location-grid"
+                                    <a href="" class="myPopover location location-grid"
                                         style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
-                                        data-placement="bottom" data-html="true"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
+                                        data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
+                                            style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
+
+                                    <!-- Content for Popover: -->
+                                    <div id="myPopoverContent" style="display:none;">
+                                        <ul>
+                                            <li>大阪</li>
+                                            <li>大阪</li>
+                                            <li>大阪</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="general-info">
+                                    <span>名前：あいうえおかきくけこ</span>
+                                    <span>年齢：20歳</span>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        <span class="title">得意ジャンル</span>
+                                        <span class="data">カジュアル</span>
+                                    </p>
+                                    <p>
+                                        <span class="title">対応年齢層</span>
+                                        <span class="data">10〜20代</span>
+                                    </p>
+                                    <p>
+                                        <span class="title">対応性別</span>
+                                        <span class="data">男女</span>
+                                    </p>
+                                </div>
+                                <div class="price">
+                                    <span><i class="currency">¥</i>2,000円/1H</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-panel-wrapper row-product" id="gird-panel-3">
+                    <div class="col">
+                        <div class="grid-panel">
+                            <a href="#">
+                                <div class="view-image">
+                                    <img src="image/preview-img.png" alt="">
+                                    <span class="count">151</span>
+
+                                    <a href="" class="myPopover location location-grid"
+                                        style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
+                                        data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
+                                            style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
+
+                                    <!-- Content for Popover: -->
+                                    <div id="myPopoverContent" style="display:none;">
+                                        <ul>
+                                            <li>大阪</li>
+                                            <li>大阪</li>
+                                            <li>大阪</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="general-info">
+                                    <span>名前：あいうえおかきくけこ</span>
+                                    <span>年齢：20歳</span>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        <span class="title">得意ジャンル</span>
+                                        <span class="data">カジュアル</span>
+                                    </p>
+                                    <p>
+                                        <span class="title">対応年齢層</span>
+                                        <span class="data">10〜20代</span>
+                                    </p>
+                                    <p>
+                                        <span class="title">対応性別</span>
+                                        <span class="data">男女</span>
+                                    </p>
+                                </div>
+                                <div class="price">
+                                    <span><i class="currency">¥</i>2,000円/1H</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="grid-panel">
+                            <a href="#">
+                                <div class="view-image">
+                                    <img src="image/preview-img.png" alt="">
+                                    <span class="count">151</span>
+
+                                    <a href="" class="myPopover location location-grid"
+                                        style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
+                                        data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
+                                            style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
+
+                                    <!-- Content for Popover: -->
+                                    <div id="myPopoverContent" style="display:none;">
+                                        <ul>
+                                            <li>大阪</li>
+                                            <li>大阪</li>
+                                            <li>大阪</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="general-info">
+                                    <span>名前：あいうえおかきくけこ</span>
+                                    <span>年齢：20歳</span>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        <span class="title">得意ジャンル</span>
+                                        <span class="data">カジュアル</span>
+                                    </p>
+                                    <p>
+                                        <span class="title">対応年齢層</span>
+                                        <span class="data">10〜20代</span>
+                                    </p>
+                                    <p>
+                                        <span class="title">対応性別</span>
+                                        <span class="data">男女</span>
+                                    </p>
+                                </div>
+                                <div class="price">
+                                    <span><i class="currency">¥</i>2,000円/1H</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="grid-panel">
+                            <a href="#">
+                                <div class="view-image">
+                                    <img src="image/preview-img.png" alt="">
+                                    <span class="count">151</span>
+
+                                    <a href="" class="myPopover location location-grid"
+                                        style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
+                                        data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
+                                            style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
+
+                                    <!-- Content for Popover: -->
+                                    <div id="myPopoverContent" style="display:none;">
+                                        <ul>
+                                            <li>大阪</li>
+                                            <li>大阪</li>
+                                            <li>大阪</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="general-info">
+                                    <span>名前：あいうえおかきくけこ</span>
+                                    <span>年齢：20歳</span>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        <span class="title">得意ジャンル</span>
+                                        <span class="data">カジュアル</span>
+                                    </p>
+                                    <p>
+                                        <span class="title">対応年齢層</span>
+                                        <span class="data">10〜20代</span>
+                                    </p>
+                                    <p>
+                                        <span class="title">対応性別</span>
+                                        <span class="data">男女</span>
+                                    </p>
+                                </div>
+                                <div class="price">
+                                    <span><i class="currency">¥</i>2,000円/1H</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="grid-panel">
+                            <a href="#">
+                                <div class="view-image">
+                                    <img src="image/preview-img.png" alt="">
+                                    <span class="count">151</span>
+
+                                    <a href="" class="myPopover location location-grid"
+                                        style="width: 82px; padding: 0 7px 0 10px;" data-toggle="popover"
+                                        data-placement="bottom" data-html="true" data-trigger="hover"
                                         data-popover-content="#myPopoverContent">大阪<i class="fa fa-caret-down"
                                             style="color: #00a0ea; font-size: 24px; float: right;"></i></a>
 
@@ -775,11 +771,11 @@
             html: true,
             content: function () {
                 var elementId = $(this).attr("data-popover-content");
-                return $(elementId).html();
+                return $(elementId).html(); 
             }
         });
     </script>
-
+    
 </body>
 
 </html>
